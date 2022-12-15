@@ -22,4 +22,4 @@ Two commands are available:
 - `ippd urls_file scrape` is used to scrape some posts images links and save the URLs in a text file, uses _Selenium_
 - `ippd urls_file download` is used to download the images with simple _Requests_ HTTP GET
 
-This tool is intended to be used by people how know how scraping and HTTP works, meaning the `-h` help option (and the small size of the code) is more than enough to understand where to get the required arguments.
+This tool is intended to be used by people who know how scraping and HTTP works, meaning the `-h` help option (and the small size of the code) is more than enough to understand where to get the required arguments.
