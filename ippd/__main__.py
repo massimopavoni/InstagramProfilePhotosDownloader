@@ -172,7 +172,7 @@ def download(args):
     # Download photos with requests and save them
     for i, url in enumerate(
             random_sample(
-                urls, k=sample_amount) if sample_amount else urls):
+                urls, k=sample_amount) if args.random_sample else urls):
         response = requests_get(url)
         with open(os_path_join(args.photos_dir, f'{i}.png'), 'wb') as f:
             f.write(response.content)
