@@ -5,10 +5,6 @@
 [![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/massimopavoni/InstagramProfilePhotosDownloader)](https://www.python.org/downloads/release/python-3100/)
 [![Code style: pep8](https://img.shields.io/badge/code%20style-pep8-blue)](https://pypi.org/project/autopep8/)
 
-[![Discord](https://img.shields.io/discord/926217143194886234?label=Join%20Not%20Declared%20Developers)](https://discord.gg/ZA76nJ3RsU)
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T8BD7A1)
-
 A simple scraping tool to download an Instagram profile's photos.
 
 ### Dependencies
