@@ -24,7 +24,7 @@ README = (Path(__file__).parent / "README.md").read_text()
 
 setup(
     name='InstagramProfilePhotosDownloader',
-    version='0.1.2',
+    version='0.1.3',
     description="A simple scraping tool to download an Instagram profile photos.",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -39,7 +39,7 @@ setup(
     platforms=['OS Independent'],
     packages=find_packages(),
     include_package_data=True,
-    python_requires='>=3.10',
+    python_requires='>=3.11',
     install_requires=[
         'selenium>=4.7',
         'requests>=2.28'],
